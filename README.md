@@ -20,16 +20,16 @@ There are many like it, but this one is mine.
   **.vimrc**
 
   ```bash
-  wget githubusercontent@github.com/TobyEvans88/vim_config/.vimrc ~/.vimrc
+  wget https://raw.githubusercontent/TobyEvans88/vim_config/refs/heads/main/.vimrc ~/.vimrc
   ```
 
-  **NERDTree**
+  **[NERDTree](https://github.com/preservim/nerdtree)**
 
   ```bash
   git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
   ```
 
-  **auto-pairs**
+  **[auto-pairs](https://github.com/jiangmiao/auto-pairs/tree/master)**
 
   ```bash
   wget ~/.vim/plugin/auto-pairs.vim
@@ -39,6 +39,6 @@ There are many like it, but this one is mine.
 
 #### Plugins
 
-1. **NERDTree:** This is a filetree system, making navigation around projects easy
+1. **[NERDTree](https://github.com/preservim/nerdtree):** This is a filetree system, making navigation around projects easy
 
-1. **auto-pairs:** This will auto close braces e.g. `()` and quotations e.g. `""`
+1. **[auto-pairs](https://github.com/jiangmiao/auto-pairs/tree/master):** This will auto close braces e.g. `()` and quotations e.g. `""`
