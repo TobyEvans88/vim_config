@@ -35,6 +35,7 @@ set smartcase
 set incsearch
 set hlsearch
 nnoremap <CR> :noh<CR><CR>:<backspace>
+tnoremap <Esc> <C-\><C-n>
 
 set background=dark
 colorscheme gruvbox
