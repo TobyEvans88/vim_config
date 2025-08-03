@@ -17,19 +17,28 @@ There are many like it, but this one is mine.
 
 #### Copy files
 
-  .vimrc
+  **.vimrc**
 
-  '''bash
+  ```bash
   wget githubusercontent@github.com/TobyEvans88/vim_config/.vimrc ~/.vimrc
-  '''
+  ```
 
-  NERDTree
+  **NERDTree**
 
-  '''bash
+  ```bash
   git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
-  '''
+  ```
 
-  auto-pairs
-  '''bash
+  **auto-pairs**
+
+  ```bash
   wget ~/.vim/plugin/auto-pairs.vim
-  '''
+  ```
+
+---
+
+#### Plugins
+
+1. **NERDTree:** This is a filetree system, making navigation around projects easy
+
+1. **auto-pairs:** This will auto close braces e.g. `()` and quotations e.g. `""`
